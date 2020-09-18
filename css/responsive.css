@@ -1,0 +1,120 @@
+.blog-right-notifacition ul li {
+	
+	padding: 4px 0;
+}
+body{
+    background: rgba(64, 45, 231, 0.233);
+}
+
+
+
+
+@media (max-width:1124px) {
+    .header-left {
+        width: 100%;
+        /* float: left; */
+        text-align: center;
+    }
+    .header-right ul {
+        text-align: center;
+    }
+    .fixed-width {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .header-right ul li a {
+       
+        padding: 0 25px;
+        line-height: 55px;
+       
+        border-right: none;
+        
+    }
+
+    .header {
+        background: rgb(81, 197, 243);
+        padding: 7px 0;
+    }
+    body{
+        background: rgba(67, 231, 52, 0.158);
+    }
+    
+    
+}
+
+@media (max-width:716px) {
+    .header-right ul li a {
+       
+        padding: 0 15px;
+        line-height: 55px;
+       
+        border-right: none;
+        
+    }
+    .services-item {
+        
+        width: 100%;
+       
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .services {
+        margin-top: 60px;
+        padding: 20px;
+    }.blog-left-content {
+        float: left;
+        width: 100%;
+    }
+    .blog-right-notifacition {
+        float: right;
+        width: 100%;
+    }
+    .blog-right-notifacition ul li {
+       
+        height: 42px;
+    }
+    .footer-right {
+        /* float: right; */
+        width: 100%;
+        text-align: center;
+        /* margin-bottom: 10px; */
+    }
+    .socail-menu {
+        text-align: center;
+    }
+    .footer-left {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 13px;
+    }
+    body{
+        background: rgba(231, 45, 45, 0.233);
+    }
+
+
+}
+
+@media (max-width:575px) {
+    .banner {
+      
+        padding: 120px 0;
+       
+    }
+    .header-right ul li a {
+        padding: 0 9px;
+    }
+    .banner-caption h1 {
+       
+        font-size: 32px;
+       
+    }
+    .banner-caption h2 {
+       
+        font-size: 31px;
+       
+    }
+    
+}
